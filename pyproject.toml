@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "poetry add Jinja2@2.10 --dev"
+version = "2.10"
+description = "Jinja"
+authors = ["Your Name <you@example.com>"]
+license = "n"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyGithub = "1.53"
+Django = "1.2.2"
+djangorestframework = "==3.11.1"
+
+[tool.poetry.dev-dependencies]
+Jinja2 = "2.10"
+Sphinx = "1.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
